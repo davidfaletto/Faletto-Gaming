@@ -118,8 +118,23 @@
     .pieDePagina .logo{
         border-radius: 20% 20%;
         height: 70px;
+        animation-name: efecto_footer;
+        animation-iteration-count: infinite;
+        animation-timing-function: ease-in;
+        animation-duration: 2s;
+        animation-delay: 1s;
     }
-   
+    @keyframes efecto_footer {
+        0%{height: 70px;}
+        12%{height: 75px;}
+        25%{height: 80px;}
+        42%{height: 90px;}
+        50%{height: 100px;}
+        62%{height: 90px;}
+        75%{height: 80px;}
+        87%{height: 75px;}
+        100%{height: 70px;}
+    }
     .pieDePagina .face{
         border-radius: 50% 50%;
     }
