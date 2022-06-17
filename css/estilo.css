@@ -365,15 +365,15 @@
     }
     legend{
         text-align: center;
+        color: #ffffff;
     }
     fieldset{
-        background-color: rgb(155,33,78);
         border-radius: 2em;
-        padding: 1em;
+        padding: 3rem;
+        width: 80%;
     }
     .formularioDeContacto{
-        color: #ffffff;
-        width: 600px;
+        width: 100%;
     }
     
     .botones .boton{
