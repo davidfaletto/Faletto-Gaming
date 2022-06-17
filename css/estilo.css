@@ -79,6 +79,10 @@
         margin-top: 3em;
         padding: 3%;
         border-radius: 4rem;
+        transition: width 0.4s;
+    }
+    .imagenes img:hover{
+        width: 80%;
     }
     .informe p{
         text-align: center;
