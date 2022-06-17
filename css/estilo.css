@@ -67,6 +67,7 @@
     color: #ffffff;
     display: flex;
     flex-flow: column wrap;
+    background-image: linear-gradient(to bottom, #000000, #5a5555);
     }
     .imagenes{
         display: flex;
