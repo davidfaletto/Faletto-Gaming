@@ -147,6 +147,7 @@
         padding: 3%;
         border-radius: 5em;
         text-align: center;
+        background-image: linear-gradient(to bottom, #000000, #5a5555, #000000);
     }
     legend{
         text-align: center;
