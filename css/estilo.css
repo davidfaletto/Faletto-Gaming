@@ -190,7 +190,11 @@
         margin-top: 2% ;
         width: 50%;
         margin: 3%;
+        transition: width 0.2s;
     }
+    .prod .imagenDeProducto:hover{
+        width: 60%;
+     }
     
     .listaDePrecios{
         text-align: center;
